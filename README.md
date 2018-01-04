@@ -86,18 +86,18 @@ Here are [installation instructions](https://pip.pypa.io/en/stable/installing/).
 Simply run:
 
 ```bash
-    $ git clone https://github.com/cdli-gh/morphology-pre-annotation-tool.git
-    $ cd morphology-pre-annotation-tool
+    $ git clone https://github.com/cdli-gh/atf2conll-convertor.git
+    $ cd atf2conll-convertor
     $ pip install .
 ```
 
 Or you can just do
 
-    $ pip install git+git://github.com/cdli-gh/morphology-pre-annotation-tool.git
+    $ pip install git+git://github.com/cdli-gh/atf2conll-convertor.git
 
 Or you can also do
 
-    $ pip install git+https://github.com/cdli-gh/morphology-pre-annotation-tool.git
+    $ pip install git+https://github.com/cdli-gh/atf2conll-convertor.git
 
 # Upgrading
 
@@ -111,11 +111,11 @@ If you already have installed it and want to upgrade the tool:
 
 Or you can just do
 
-    $ pip install git+git://github.com/cdli-gh/morphology-pre-annotation-tool.git --upgrade
+    $ pip install git+git://github.com/cdli-gh/atf2conll-convertor.git --upgrade
 
 Or you can also do
 
-    $ pip install git+https://github.com/cdli-gh/morphology-pre-annotation-tool.git --upgrade
+    $ pip install git+https://github.com/cdli-gh/atf2conll-convertor.git --upgrade
 
 
 # Usage
