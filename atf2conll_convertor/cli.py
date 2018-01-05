@@ -19,7 +19,7 @@ def check_and_process(pathname, verbose=False):
     if S_ISREG(mode) and pathname.lower().endswith('.atf'):
         # It's a file, call the callback function
         if verbose:
-            click.echo('Processing {0}.'.format(pathname))
+            click.echo('Info: Processing {0}.'.format(pathname))
         file_process(pathname, verbose)
 
 
@@ -31,7 +31,7 @@ def check_and_process(pathname, verbose=False):
 def main(input_path, verbose):
     """My Tool does one work, and one work well."""
     if os.path.isdir(input_path):
-        with click.progressbar(os.listdir(input_path), label='Converting the files') as bar:
+        with click.progressbar(os.listdir(input_path), label='Info: Converting the files') as bar:
             for f in bar:
                 pathname = os.path.join(input_path, f)
                 check_and_process(pathname, verbose)

@@ -7,7 +7,7 @@ dependencies = ['click']
 
 setup(
     name='atf2conllconvertor',
-    version='0.2.0',
+    version='0.2.1',
     url='https://github.com/jayanthjaiswal/atf2conll-convertor',
     license='BSD',
     author='Jayanth',

@@ -27,20 +27,27 @@ class ATFCONLConvertor:
         self.inputFileName = inputFile
         self.outfolder = os.path.join(os.path.dirname(self.inputFileName), OUTPUT_FOLDER)
         self.verbose = verbose
-        self.outputFilename = ""
-        self.surfaceMode = ""
+        self.__reset__()
+
+    def __reset__(self):
+        self.outputFilename = ''
+        self.surfaceMode = ''
         self.inEnvelope = ''
         self.column = ''
         self.tokens = []
 
     def convert(self):
         if self.verbose:
-            click.echo('Reading file {0}.'.format(self.inputFileName))
+            click.echo('Info: Reading file {0}.'.format(self.inputFileName))
         with codecs.open(self.inputFileName, 'r', 'utf-8') as openedFile:
             for (i, line) in enumerate(openedFile):
                 self.__parse(i, line.strip())
 
     def write2file(self):
+        IDlist = map(lambda x: x[0], self.tokens)
+        if len(IDlist) != len(set(IDlist)):
+            click.echo(
+                'Error: File {0}, Text {1} : IDs generated are not unique'.format(self.inputFileName, self.outputFilename))
         outfile_name = os.path.join(self.outfolder, self.outputFilename + ".conll")
         with codecs.open(outfile_name, 'w+', 'utf-8') as outputFile:
             outputFile.writelines("#new_text=" + self.outputFilename + "\n")
@@ -55,9 +62,7 @@ class ATFCONLConvertor:
         elif line[0] == "&":
             if len(self.tokens) > 0:
                 self.write2file()
-                self.tokens = []
-                self.inEnvelope = ''
-                self.column = ''
+            self.__reset__()
             firstword = tokenizedLine[0].lstrip("&")
             self.outputFilename = firstword
         elif line[0] == "@":
@@ -91,7 +96,7 @@ class ATFCONLConvertor:
             else:
                 if self.verbose:
                     click.echo(
-                        'File {0}, Linenumber {1} : Unrecognized @ in {2}'.format(self.inputFileName, linenumber, line))
+                        'Warning: File {0}, Linenumber {1} : Unrecognized @ in {2}'.format(self.inputFileName, linenumber, line))
         elif line[0] != "#" and is_number(line[0]):
             linenumber = tokenizedLine[0].rstrip(".")
             tokensToProcess = tokenizedLine[1:]
