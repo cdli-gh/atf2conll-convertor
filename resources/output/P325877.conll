@@ -16,8 +16,8 @@ o.3.1	1(disz)
 o.3.2	tug2
 o.3.3	nig2-lam2
 o.3.4	ab
-o.3.5	[gesztu]
-o.3.6	du#
+o.3.5	gesztu
+o.3.6	du
 o.4.1	2(disz)
 o.4.2	tug2
 o.4.3	nig2-lam2
@@ -37,8 +37,8 @@ o.7.1	2(disz)
 o.7.2	tug2
 o.7.3	sza3-ga-du3
 o.7.4	nig2-lam2
-o.7.5	[n-kam]
-o.7.6	us2#
+o.7.5	n-kam
+o.7.6	us2
 o.8.1	2(disz)
 o.8.2	tug2
 o.8.3	sza3-ga-du3
@@ -97,7 +97,7 @@ r.4.3	usz-bar
 r.5.1	3(disz)
 r.5.2	tug2
 r.5.3	usz-bar
-r.5.4	ge6#
+r.5.4	ge6
 r.6.1	5(disz)
 r.6.2	tug2
 r.6.3	mug
@@ -116,6 +116,6 @@ r.11.2	us2-sa
 r.11.3	{d}szu-{d}suen
 r.11.4	lugal
 r.11.5	uri5{ki}-ma-ke4
-r.11.6	bad3#
+r.11.6	bad3
 r.11.7	mar-tu
 r.11.8	mu-du3

@@ -1,16 +1,16 @@
 #new_text=P453314
 # ID	FORM	SEGM	XPOSTAG	HEAD	DEPREL	MISC
-r.1'.1	[iti]
-r.1'.2	gan-gan-e3
-r.2'.1	[mu]
-r.2'.2	ha#-am-mu-ra-bi
-r.2'.3	lugal-[e]
-r.2'.4	[bad3]-gal#
-r.2'.5	gu2
-r.2'.6	i7
-r.2'.7	idigna
-r.2'.8	[kar-{d}utu
-r.2'.9	mu]-un#-il2#-[...]
-r.1.1	na-bi-{d}utu
-r.2.1	dumu
-r.2.2	im-gu-u2-a
+er.1'.1	iti
+er.1'.2	gan-gan-e3
+er.2'.1	mu
+er.2'.2	ha-am-mu-ra-bi
+er.2'.3	lugal-e
+er.2'.4	bad3-gal
+er.2'.5	gu2
+er.2'.6	i7
+er.2'.7	idigna
+er.2'.8	kar-{d}utu
+er.2'.9	mu-un-il2-...
+s1.1.1	na-bi-{d}utu
+s1.2.1	dumu
+s1.2.2	im-gu-u2-a

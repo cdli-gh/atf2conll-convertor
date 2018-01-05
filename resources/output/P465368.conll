@@ -1,9 +1,9 @@
 #new_text=P465368
 # ID	FORM	SEGM	XPOSTAG	HEAD	DEPREL	MISC
-r.1.1	{d}nin-szubur
-r.2.1	sukkal
-r.2.2	an-ra
-r.3.1	nam-ti
-r.4.1	[mes]-ki-gal
-r.5.1	ensi2
-r.6.1	adab{[ki]}
+a.1.1	{d}nin-szubur
+a.2.1	sukkal
+a.2.2	an-ra
+a.3.1	nam-ti
+a.4.1	mes-ki-gal
+a.5.1	ensi2
+a.6.1	adab{ki}

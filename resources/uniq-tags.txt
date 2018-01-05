@@ -1,0 +1,1036 @@
+@ bottom 
+@ column 2
+@ envelope 
+@ reverse 
+@ seal
+@ seal 1 
+@ surface a 
+@ surface b 
+@REverse
+@atf: lang akk 
+@bottom
+@bottom 
+@bottom  
+@bottom 1 
+@bottom 2
+@bottom 2 
+@bottom 3 
+@bottom 4 
+@bottom 5 
+@bottom 6 
+@bottom 8 
+@bottom edge 
+@bottom1
+@bottom1 
+@bottom2
+@bottom2 
+@bottom3 
+@bottom4 
+@bottom5 
+@bottom6 
+@bottom_1 
+@bottom_2 
+@brick 
+@bulla
+@bulla 
+@bulla  
+@canto 1 
+@canto 2 
+@canto 3 
+@canto 4 
+@canto 5 
+@catchline
+@catchline 
+@catchline  
+@cokumn 5 
+@col. 1
+@col. 2
+@colophon
+@colophon 
+@colophon  
+@colophon 1
+@colophon 2
+@colum 2 
+@column 
+@column  1 
+@column  1' 
+@column  2 
+@column 0 
+@column 01
+@column 01 
+@column 01' 
+@column 02
+@column 02 
+@column 02' 
+@column 03 
+@column 03' 
+@column 1
+@column 1 
+@column 1  
+@column 1'
+@column 1' 
+@column 1-4 
+@column 10
+@column 10 
+@column 10' 
+@column 11
+@column 11 
+@column 11' 
+@column 12
+@column 12 
+@column 12' 
+@column 13 
+@column 13' 
+@column 14 
+@column 14' 
+@column 15 
+@column 15' 
+@column 16 
+@column 16' 
+@column 17 
+@column 17' 
+@column 18 
+@column 18' 
+@column 19 
+@column 19' 
+@column 1?
+@column 1? 
+@column 2
+@column 2	
+@column 2 
+@column 2  
+@column 2   
+@column 2'
+@column 2' 
+@column 2'  
+@column 20 
+@column 20' 
+@column 21 
+@column 21' 
+@column 22 
+@column 22' 
+@column 23 
+@column 23' 
+@column 24 
+@column 24' 
+@column 25 
+@column 26 
+@column 27 
+@column 28 
+@column 29 
+@column 2?
+@column 2? 
+@column 3
+@column 3 
+@column 3  
+@column 3'
+@column 3' 
+@column 30 
+@column 3?
+@column 3? 
+@column 4
+@column 4 
+@column 4  
+@column 4'
+@column 4' 
+@column 5
+@column 5 
+@column 5  
+@column 5'
+@column 5' 
+@column 6
+@column 6 
+@column 6'
+@column 6' 
+@column 7
+@column 7 
+@column 7'
+@column 7' 
+@column 8
+@column 8 
+@column 8'
+@column 8' 
+@column 9
+@column 9 
+@column 9' 
+@column. 1
+@column2
+@column2 
+@cone
+@cylinder 
+@date
+@date 
+@div Akkadian 1 
+@edge
+@edge 
+@edge  
+@end Akkadian 
+@envelope
+@envelope 
+@envelope  
+@envelope (39b) 
+@envelope 1
+@envelope? 
+@epilogue 
+@epilogue  
+@erverse 
+@face a
+@face a 
+@face a'
+@face b
+@face b 
+@face c
+@face c 
+@face d
+@face d 
+@face e
+@face f
+@face g
+@following Tsouparopoulou
+@fragment
+@fragment 
+@fragment 1
+@fragment 1 
+@fragment 2
+@fragment 2 
+@fragment 3
+@fragment 3 
+@fragment 4 
+@fragment 5 
+@fragment 6 
+@fragment 7 
+@fragment 8 
+@fragment 9 
+@fragment A 
+@fragment B 
+@fragment C 
+@fragment D 
+@fragment E 
+@fragment a
+@fragment a 
+@fragment b
+@fragment b 
+@fragment bulla 
+@fragment c 
+@fragment d 
+@fragment e 
+@fragment f 
+@fragment g 
+@fragment h 
+@fragment i 
+@fragment j 
+@fragment k 
+@fragment l 
+@fragment o 
+@fragment p 
+@fragment s 
+@fragment t 
+@fragment u 
+@h1 Date 
+@law 1 
+@law 10 
+@law 101 
+@law 102 
+@law 103 
+@law 104 
+@law 105 
+@law 106 
+@law 107 
+@law 108 
+@law 109 
+@law 11 
+@law 110 
+@law 111 
+@law 112 
+@law 113 
+@law 114 
+@law 115 
+@law 116 
+@law 117 
+@law 118 
+@law 119 
+@law 12 
+@law 120 
+@law 121 
+@law 122 
+@law 123 
+@law 124 
+@law 125 
+@law 126 
+@law 127 
+@law 128 
+@law 129 
+@law 13 
+@law 130 
+@law 131 
+@law 132 
+@law 133 
+@law 134 
+@law 135 
+@law 136 
+@law 137 
+@law 138 
+@law 139 
+@law 14 
+@law 140 
+@law 141 
+@law 142 
+@law 143 
+@law 144 
+@law 145 
+@law 146 
+@law 147 
+@law 148 
+@law 149 
+@law 15 
+@law 150 
+@law 151 
+@law 152 
+@law 153 
+@law 154 
+@law 155 
+@law 156 
+@law 157 
+@law 158 
+@law 159 
+@law 16 
+@law 160 
+@law 161 
+@law 162 
+@law 163 
+@law 164 
+@law 165 
+@law 166 
+@law 167 
+@law 168 
+@law 169 
+@law 17 
+@law 17-18 
+@law 170 
+@law 171 
+@law 172 
+@law 173 
+@law 174 
+@law 175 
+@law 176 
+@law 177 
+@law 178 
+@law 179 
+@law 18 
+@law 180 
+@law 181 
+@law 182 
+@law 183 
+@law 184 
+@law 185 
+@law 186 
+@law 187 
+@law 188 
+@law 189 
+@law 18a 
+@law 19 
+@law 190 
+@law 191 
+@law 192 
+@law 193 
+@law 194 
+@law 195 
+@law 196 
+@law 197 
+@law 198 
+@law 199 
+@law 2 
+@law 20 
+@law 200 
+@law 201 
+@law 202 
+@law 203 
+@law 204 
+@law 205 
+@law 206 
+@law 207 
+@law 208 
+@law 209 
+@law 20a  
+@law 20b  
+@law 20c  
+@law 21 
+@law 210 
+@law 211 
+@law 212 
+@law 213 
+@law 214 
+@law 215 
+@law 216 
+@law 217 
+@law 218 
+@law 219 
+@law 21a  
+@law 21b  
+@law 22 
+@law 220 
+@law 221 
+@law 222 
+@law 223 
+@law 224 
+@law 225 
+@law 226 
+@law 227 
+@law 228 
+@law 229 
+@law 23 
+@law 23-24 
+@law 230 
+@law 231 
+@law 232 
+@law 233 
+@law 234 
+@law 235 
+@law 236 
+@law 237 
+@law 238 
+@law 239 
+@law 23a  
+@law 23b  
+@law 24 
+@law 240 
+@law 241 
+@law 242-243 
+@law 244 
+@law 245 
+@law 246 
+@law 247 
+@law 248 
+@law 249 
+@law 25 
+@law 250 
+@law 251 
+@law 252 
+@law 253 
+@law 254 
+@law 255 
+@law 256 
+@law 257 
+@law 258 
+@law 259 
+@law 26 
+@law 260 
+@law 261 
+@law 262 
+@law 263 
+@law 264 
+@law 265 
+@law 266 
+@law 267 
+@law 268 
+@law 269 
+@law 27 
+@law 270 
+@law 271 
+@law 272 
+@law 273 
+@law 274 
+@law 275 
+@law 276 
+@law 277 
+@law 278 
+@law 279 
+@law 28 
+@law 280 
+@law 281 
+@law 282 
+@law 29 
+@law 3 
+@law 30 
+@law 31 
+@law 32 
+@law 32a  
+@law 33 
+@law 34 
+@law 34-35 
+@law 35 
+@law 36 
+@law 36-37 
+@law 37 
+@law 38 
+@law 39 
+@law 4 
+@law 40 
+@law 41 
+@law 42 
+@law 43 
+@law 44 
+@law 45 
+@law 46 
+@law 47 
+@law 47a 
+@law 48 
+@law 49 
+@law 5 
+@law 50 
+@law 51 
+@law 52 
+@law 53 
+@law 54 
+@law 54-55 
+@law 55 
+@law 56 
+@law 56-57 
+@law 57 
+@law 58 
+@law 59 
+@law 6 
+@law 60 
+@law 61 
+@law 62 
+@law 63 
+@law 64 
+@law 65 
+@law 7 
+@law 7a  
+@law 8 
+@law 9 
+@law 9a 
+@laws 242-243 
+@left
+@left 
+@left  
+@left [...] x engar  
+@left edge
+@left edge 
+@left. 
+@left? 
+@legend 1
+@legend 2
+@m-division inscription c 
+@m-division paragraph 2 
+@m=A version from Nibru 
+@m=A version from Susa 
+@m=A version from Ur 
+@m=A version from Urim (UET 6, 142) 
+@m=A version of unknown provenance 
+@m=Fragments of a version from Nippur 
+@m=Segment A 
+@m=Segment B 
+@m=Segment C 
+@m=Segment D 
+@m=division Akkadian version on column 6 
+@m=division Akkadian version on columns 2 & 4
+@m=division Sumerian version on column 5 
+@m=division Sumerian version on columns 1 & 3 
+@m=division caption 1 
+@m=division caption 1'
+@m=division caption 2 
+@m=division caption 2'
+@m=division caption 3 
+@m=division caption 3'
+@m=division caption 4 
+@m=division catchline to Tablet V 
+@m=division colophon
+@m=division colophon 2
+@m=division inscription a 
+@m=division inscription b 
+@m=division inscription d 
+@m=division paragraph
+@m=division paragraph 2 
+@m=division paragraph 3 
+@m=division paragraph 4 
+@m=division paragraph 5 
+@m=division paragraph 6 
+@m=locator Catchline
+@m=locator catchline 
+@m=locator colophon
+@m=locator colophon 
+@m=segment A 
+@m=segment B 
+@m=segment C 
+@m=segment D 
+@m=segment E 
+@m=segment F 
+@m=segment G 
+@m=segment H 
+@m=version A 
+@m=version A (of three closely related compositions) 
+@m=version B 
+@m=version B (from Susa) 
+@m=version B (of three closely related compositions) 
+@m=version C (of three closely related compositions) 
+@macehead
+@obejct canephore 
+@obejct composite text 
+@obejct door socket 
+@oberse 
+@object 
+@object  
+@object  bead
+@object <object-bronze band> 
+@object agate cameo 
+@object alabaster vessel 
+@object alabaster vessel fragment  
+@object alabastron 
+@object amulette 
+@object amulette  
+@object atatue 
+@object axe head 
+@object axehead 
+@object baked brick 
+@object ball 
+@object barrel
+@object barrel 
+@object barrel  
+@object basin 
+@object bead 
+@object block 
+@object block   
+@object bolw 
+@object boulder 
+@object boundary stone 
+@object bowl
+@object bowl 
+@object bowl  
+@object bowl fragment 
+@object brick
+@object brick 
+@object brick  
+@object brick   
+@object brick 1 
+@object brick 2 
+@object brick stamp
+@object brick stamp 
+@object brick stamp   
+@object bronze axe
+@object bronze cup  
+@object bronze vase 
+@object builla 
+@object bulla
+@object bulla 
+@object bulla  
+@object button 
+@object bwol 
+@object calcite bowl 
+@object candelabrum 
+@object canephor 
+@object canephore 
+@object clay drum 
+@object clay hand 
+@object clay strip 
+@object comosite 
+@object compiste text 
+@object compoite text 
+@object composit text 
+@object composite
+@object composite 
+@object composite  
+@object composite file 
+@object composite seal 
+@object composite text
+@object composite text 
+@object composite text  
+@object cone
+@object cone 
+@object cone  
+@object cone   
+@object cone 1
+@object cone fragment
+@object cone fragment 
+@object cone head
+@object copper cylinder 
+@object cup 
+@object curved stone 
+@object cyinder 
+@object cylinder
+@object cylinder 
+@object cylinder  
+@object cylinder fragment 
+@object cylinder seal 
+@object cylinder(?) fragment 
+@object cylindrical object 
+@object dagger 
+@object dagger blade 
+@object disc 
+@object dish 
+@object disk 
+@object dog figurine 
+@object door socket
+@object door socket 
+@object door socket? 
+@object duck weight 
+@object duck weight  
+@object earrings 
+@object envelope 
+@object eyestone 
+@object eyestone  
+@object figurine 
+@object foot 
+@object foundation figurine 
+@object foundation tablet 
+@object fragment 
+@object fragment a 
+@object fragment of a four-cornered stone 
+@object goblet 
+@object gold leaf 
+@object gold sheet 
+@object hammer head 
+@object hollow cylinder
+@object inlay 
+@object inscribed terra cota
+@object irregular block  
+@object jar 
+@object jar fragment
+@object knife 
+@object knob 
+@object knob  
+@object kudurru 
+@object lamp 
+@object lapis disc 
+@object limestone inscription  
+@object limestone slab 
+@object lion peg 
+@object lion peg  
+@object liver model 
+@object lump of clay
+@object mace 
+@object mace head
+@object mace head 
+@object mace head  
+@object mace-head 
+@object macehead 
+@object male statue 
+@object male statuette 
+@object male statuette fragment 
+@object metal bowl
+@object metal peg 
+@object monument 
+@object mortar 
+@object nail 
+@object nail & plate 
+@object obelisk 
+@object other brand 
+@object other door socket 
+@object other statue 
+@object other stone 
+@object other vessel 
+@object other weight 
+@object ovoid tag 
+@object peg 
+@object pendant 
+@object pillar 
+@object pipe 
+@object plaque 
+@object plaque   
+@object plate 
+@object plating 
+@object pommel 
+@object portion of base for basin 
+@object potsherd 
+@object prism
+@object prism 
+@object relief 
+@object ring 
+@object rock crystal vessel 
+@object rock relief in situ 
+@object seal
+@object seal 
+@object seal  
+@object sealing 
+@object shell 
+@object slab 
+@object slab  
+@object slate vessel fragment
+@object sockle 
+@object spear 
+@object spear head
+@object spearhead 
+@object spike 
+@object stamp 
+@object stand 
+@object statue 
+@object statue  
+@object statue base 
+@object statue(?) fragment 
+@object statuete 
+@object statuette 
+@object statuette  
+@object statuette fragment 
+@object stele 
+@object stele  
+@object stele fragment 
+@object stone 
+@object stone  
+@object stone bowl
+@object stone bowl 
+@object stone bowl fragment 
+@object stone disc 
+@object stone disk 
+@object stone fragment
+@object stone fragment 
+@object stone knife 
+@object stone monument 
+@object stone slab 
+@object stone statue 
+@object stone vessel fragment 
+@object sword 
+@object tablet
+@object tablet 
+@object tablet & envelope 
+@object tablet and envelope 
+@object tag 
+@object tenon 
+@object threshold 
+@object token 
+@object uncertain 
+@object unclear 
+@object vase
+@object vase 
+@object vessel 
+@object vessel  
+@object vessel fragment 
+@object weight
+@object weight 
+@object white limestone vessel 
+@object wig 
+@object windbell 
+@object xxx 
+@object: inscribed brick 
+@object: stamped brick 
+@object: stone fragment 
+@obv. 
+@obvberse 
+@obvere 
+@obverse
+@obverse	 
+@obverse 
+@obverse 	 
+@obverse  
+@obverse   
+@obverse [...] 
+@obverse'
+@obverse?
+@obverse? 
+@other 
+@other door socket 
+@pbject brick 
+@prism
+@prism 
+@prologue 
+@rev. 
+@reveres 
+@reverse
+@reverse	
+@reverse	 
+@reverse 
+@reverse 	 
+@reverse  
+@reverse (?) 
+@reverse ß∑ 
+@reverse.
+@reverse?
+@reverse? 
+@right
+@right 
+@right edge 
+@saeal 1 
+@seal
+@seal 
+@seal 003649 
+@seal 1
+@seal 1 
+@seal 1 			
+@seal 1  
+@seal 10 
+@seal 11 
+@seal 2
+@seal 2 
+@seal 28 
+@seal 3
+@seal 3 
+@seal 31 
+@seal 33 
+@seal 35 
+@seal 4
+@seal 4 
+@seal 42 
+@seal 47 
+@seal 5 
+@seal 51 
+@seal 53 
+@seal 54 
+@seal 57 
+@seal 59 
+@seal 6 
+@seal 63 
+@seal 65 
+@seal 7 
+@seal 8 
+@seal 9 
+@seal A 
+@seal A/103 
+@seal A/109 
+@seal A/14 
+@seal A/16 
+@seal A/20 
+@seal A/41 
+@seal A/43 
+@seal A/47 
+@seal A/61 
+@seal A/7 
+@seal A/74 
+@seal A/90 
+@seal A/98 
+@seal B 
+@seal B/104 
+@seal B/15 
+@seal B/44 
+@seal B/48 
+@seal B/8 
+@seal C 
+@seal C/3 
+@seal C/50 
+@seal C/9 
+@seal D 
+@seal D/46 
+@seal D/51 
+@seal E 
+@seal E/36 
+@seal egel D 
+@seal000081 
+@seal1 
+@seal2 
+@seal3 
+@seal4 
+@sseal 1
+@suface a 
+@suface b 
+@summary
+@summary 
+@surace a
+@surface 1 
+@surface 2 
+@surface 3 
+@surface X
+@surface Y
+@surface a
+@surface a	
+@surface a 
+@surface a  
+@surface a   
+@surface a' 
+@surface a01 
+@surface a02 
+@surface a03 
+@surface a04 
+@surface a05 
+@surface a06 
+@surface a07 
+@surface a08 
+@surface a09 
+@surface a1 
+@surface a10 
+@surface a11 
+@surface a2 
+@surface a3 
+@surface a4 
+@surface a5 
+@surface a6 
+@surface b
+@surface b 
+@surface b  
+@surface b' 
+@surface b1 
+@surface b2 
+@surface b3 
+@surface b4 
+@surface c
+@surface c 
+@surface c  
+@surface c' 
+@surface d
+@surface d 
+@surface d  
+@surface d' 
+@surface e 
+@surface e  
+@surface f 
+@surface f  
+@surface face a 
+@surface face b 
+@surface face c 
+@surface face d 
+@surface face e 
+@surface fragment 1
+@surface fragment 10
+@surface fragment 11 
+@surface fragment 11+2 
+@surface fragment 12 
+@surface fragment 13 
+@surface fragment 14 
+@surface fragment 15
+@surface fragment 16 
+@surface fragment 17 
+@surface fragment 18 
+@surface fragment 19 
+@surface fragment 2 
+@surface fragment 20 
+@surface fragment 21 
+@surface fragment 22 
+@surface fragment 23 
+@surface fragment 24 
+@surface fragment 25 
+@surface fragment 26 
+@surface fragment 27
+@surface fragment 28 
+@surface fragment 3 
+@surface fragment 4
+@surface fragment 5
+@surface fragment 6 
+@surface fragment 7 
+@surface fragment 8 
+@surface fragment 9 
+@surface g 
+@surface g  
+@surface h 
+@surface h  
+@surface head 
+@surface i 
+@surface i  
+@surface j 
+@surface j  
+@surface k 
+@surface k  
+@surface l 
+@surface l  
+@surface m 
+@surface q 
+@surface shaft 
+@table 
+@tablet
+@tablet	
+@tablet	 
+@tablet 
+@tablet  
+@tablet   
+@tablet & envelope
+@tablet & envelope 
+@tablet (39a) 
+@tablet (and envelope) 
+@tablet 1 
+@tablet 10 
+@tablet 11 
+@tablet 2 
+@tablet 3 
+@tablet 4 
+@tablet 5 
+@tablet 6 
+@tablet 7 
+@tablet 8 
+@tablet 9 
+@tablet @obverse 
+@tablet fragment
+@tablet fragment 4
+@tag 
+@talet 
+@top
+@top 
+@tqablet 
+@witnesses
+@witnesses 
