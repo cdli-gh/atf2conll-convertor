@@ -124,6 +124,8 @@ To use it:
 
     $ atf2conll-convertor --help
 
+*Only files with the .atf extension can be processed.  *
+ 
 To run it on file:
 
     $ atf2conll-convertor -i ./resources/input.atf
@@ -136,7 +138,8 @@ To see the console messages of the tool, use --verbose switch
 
     $ atf2conll-convertor -i ./resources  --verbose
 
-If you don't give arguments, it will prompt for the path.
+If you don't give arguments, it will prompt for the path.  
+
 
 
 
