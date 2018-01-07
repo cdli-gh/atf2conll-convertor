@@ -7,7 +7,7 @@ dependencies = ['click']
 
 setup(
     name='atf2conllconvertor',
-    version='0.2.1',
+    version='0.2.2',
     url='https://github.com/jayanthjaiswal/atf2conll-convertor',
     license='BSD',
     author='Jayanth',
@@ -21,7 +21,7 @@ setup(
     install_requires=dependencies,
     entry_points={
         'console_scripts': [
-            'atf2conll-convertor = atf2conll_convertor.cli:main',
+            'atf2conll = atf2conll_convertor.cli:main',
         ],
     },
     classifiers=[

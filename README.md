@@ -122,21 +122,21 @@ Or you can also do
 
 To use it:
 
-    $ atf2conll-convertor --help
+    $ atf2conll --help
 
 *Only files with the .atf extension can be processed.  *
  
 To run it on file:
 
-    $ atf2conll-convertor -i ./resources/input.atf
+    $ atf2conll -i ./resources/input.atf
 
 To run it on folder:
 
-    $ atf2conll-convertor -i ./resources
+    $ atf2conll -i ./resources
 
 To see the console messages of the tool, use --verbose switch
 
-    $ atf2conll-convertor -i ./resources  --verbose
+    $ atf2conll -i ./resources  --verbose
 
 If you don't give arguments, it will prompt for the path.  
 
