@@ -44,7 +44,7 @@ class ATFCONLConvertor:
                 self.__parse(i, line.strip())
 
     def write2file(self):
-        IDlist = map(lambda x: x[0], self.tokens)
+        IDlist = list(map(lambda x: x[0], self.tokens))
         if len(IDlist) != len(set(IDlist)):
             click.echo(
                 'Error: File {0}, Text {1} : IDs generated are not unique'.format(self.inputFileName, self.outputFilename))
