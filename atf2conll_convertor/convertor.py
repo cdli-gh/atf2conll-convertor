@@ -79,7 +79,7 @@ class ATFCONLConvertor:
             elif firstword == "left":
                 self.surfaceMode = "l"
             elif firstword == "right":
-                self.surfaceMode = "r"
+                self.surfaceMode = "ri"
             elif firstword == "surface" or firstword == "face":
                 self.surfaceMode = tokenizedLine[-1]
             elif firstword == "seal":
@@ -108,5 +108,5 @@ class ATFCONLConvertor:
                     IDlist = [prefix, self.column, linenumber, str(i + 1)]
                 ID = ".".join(IDlist)
                 form = tokensToProcess[i]
-                form_clean = form.replace('#', '').replace('[', '').replace(']', '')
+                form_clean = form.replace('#', '').replace('[', '').replace(']', '').replace('<', '').replace('>', '').replace('!', '').replace('?', '')
                 self.tokens.append((ID, form_clean))

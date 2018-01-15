@@ -1,0 +1,129 @@
+Processing the files
+
+Error: The id sC.1.1 in line number 38 in file resources/output/P359422.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sC.2.1 in line number 39 in file resources/output/P359422.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sC.2.2 in line number 40 in file resources/output/P359422.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: File resources/output/P359422.conll : IDs generated are not unique
+
+Error: File resources/output/P273583.conll : IDs generated are not unique
+
+Error: File resources/output/P324052.conll : IDs generated are not unique
+
+Error: The id s57.1.1 in line number 77 in file resources/output/P273598.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id s57.2.1 in line number 78 in file resources/output/P273598.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id s57.2.2 in line number 79 in file resources/output/P273598.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id s59.1.1 in line number 80 in file resources/output/P273598.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id s59.1.2 in line number 81 in file resources/output/P273598.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id s59.1.3 in line number 82 in file resources/output/P273598.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: File resources/output/P390710.conll : IDs generated are not unique
+
+Error: File resources/output/P359706.conll : IDs generated are not unique
+
+Error: The id sA.1.1 in line number 33 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sA.2.1 in line number 34 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sA.2.2 in line number 35 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.1.1 in line number 36 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.2.1 in line number 37 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.3.1 in line number 38 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.4.1 in line number 39 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.5.1 in line number 40 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.6.1 in line number 41 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.6.2 in line number 42 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.7.1 in line number 43 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.7.2 in line number 44 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.7.3 in line number 45 in file resources/output/P359427.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: File resources/output/P290065.conll : IDs generated are not unique
+
+Error: The id s42.1.1 in line number 49 in file resources/output/P273593.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id s42.2.1 in line number 50 in file resources/output/P273593.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id s42.2.2 in line number 51 in file resources/output/P273593.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: File resources/output/P109954.conll : IDs generated are not unique
+
+Error: File resources/output/P358717.conll : IDs generated are not unique
+
+Error: The id sA.1.1 in line number 89 in file resources/output/P360513.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sA.2.1 in line number 90 in file resources/output/P360513.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sA.2.2 in line number 91 in file resources/output/P360513.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sA.1.1 in line number 111 in file resources/output/P359410.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sA.2.1 in line number 112 in file resources/output/P359410.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sA.2.2 in line number 113 in file resources/output/P359410.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.1.1 in line number 114 in file resources/output/P359410.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sB.2.1 in line number 115 in file resources/output/P359410.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sD.1.1 in line number 116 in file resources/output/P359410.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sD.1.2 in line number 117 in file resources/output/P359410.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sD.1.3 in line number 118 in file resources/output/P359410.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sD.1.4 in line number 119 in file resources/output/P359410.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sD.1.5 in line number 120 in file resources/output/P359410.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id er.2'._dumu#_e-la2-li2.1 in line number 12 in file resources/output/P359612.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id er.2'._dumu#_e-la2-li2.2 in line number 13 in file resources/output/P359612.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: File resources/output/P359415.conll : IDs generated are not unique
+
+Error: File resources/output/P458905.conll : IDs generated are not unique
+
+Error: File resources/output/P297474.conll : IDs generated are not unique
+
+Error: The id sA.1.1 in line number 205 in file resources/output/P359411.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sA.1.2 in line number 206 in file resources/output/P359411.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sA.2.1 in line number 207 in file resources/output/P359411.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id sA.2.2 in line number 208 in file resources/output/P359411.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: File resources/output/P359411.conll : IDs generated are not unique
+
+Error: The id a.38A.1 in line number 270 in file resources/output/P469678.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id a.38A.2 in line number 271 in file resources/output/P469678.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id a.38A.3 in line number 272 in file resources/output/P469678.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: The id a.38A.4 in line number 273 in file resources/output/P469678.conll does not follow the Conll format "^e?(o|r|t|b|l|ri|(s?[a-z]?[0-9]?))\.(col[0-9]'?\.)?[0-9]+'?\.[0-9]+$".
+
+Error: File resources/output/P469678.conll : IDs generated are not unique
+
+Error: File resources/output/P360818.conll : IDs generated are not unique
+
+Error: File resources/output/P423472.conll : IDs generated are not unique
+
+Error: File resources/output/P360512.conll : IDs generated are not unique
