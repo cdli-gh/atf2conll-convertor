@@ -1,0 +1,2 @@
+click
+git+ssh://git@github.com/cdli-gh/pyoracc.git@master#egg=pyoracc

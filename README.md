@@ -88,16 +88,16 @@ Simply run:
 ```bash
     $ git clone https://github.com/cdli-gh/atf2conll-convertor.git
     $ cd atf2conll-convertor
-    $ pip install .
+    $ pip install . --process-dependency-links
 ```
 
 Or you can just do
 
-    $ pip install git+git://github.com/cdli-gh/atf2conll-convertor.git
+    $ pip install git+git://github.com/cdli-gh/atf2conll-convertor.git --process-dependency-links
 
 Or you can also do
 
-    $ pip install git+https://github.com/cdli-gh/atf2conll-convertor.git
+    $ pip install git+https://github.com/cdli-gh/atf2conll-convertor.git --process-dependency-links
 
 # Upgrading
 
@@ -106,16 +106,16 @@ If you already have installed it and want to upgrade the tool:
 ```bash
     $ cd atf2conll-convertor
     $ git pull origin master
-    $ pip install . --upgrade
+    $ pip install . --upgrade --process-dependency-links
 ```
 
 Or you can just do
 
-    $ pip install git+git://github.com/cdli-gh/atf2conll-convertor.git --upgrade
+    $ pip install git+git://github.com/cdli-gh/atf2conll-convertor.git --upgrade --process-dependency-links
 
 Or you can also do
 
-    $ pip install git+https://github.com/cdli-gh/atf2conll-convertor.git --upgrade
+    $ pip install git+https://github.com/cdli-gh/atf2conll-convertor.git --upgrade --process-dependency-links
 
 
 # Usage
