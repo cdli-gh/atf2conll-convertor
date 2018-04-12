@@ -41,7 +41,7 @@ dependencies, dependency_links = install_deps()
 
 setup(
     name='atf2conllconvertor',
-    version='0.2.5',
+    version='0.2.6',
     url='https://github.com/jayanthjaiswal/atf2conll-convertor',
     license='BSD',
     author='Jayanth',
