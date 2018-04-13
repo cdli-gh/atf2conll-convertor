@@ -13,10 +13,12 @@ def file_process(infile, verbose=False):
     try:
         click.echo('Info: Checking {0} with Pyoracc atfchecker.'.format(infile))
         check_atf(infile, 'cdli', verbose)
-    finally:
-        convertor = ATFCONLConvertor(infile, verbose)
-        convertor.convert()
-        convertor.write2file()
+    except SyntaxError as err:
+        click.echo('Error in file{0} with Pyoracc atfchecker.'.format(infile))
+        click.echo('Syntax error: {0}'.format(err))
+    convertor = ATFCONLConvertor(infile, verbose)
+    convertor.convert()
+    convertor.write2file()
 
 
 def check_and_process(pathname, verbose=False):
