@@ -74,8 +74,10 @@ class ATFCONLConvertor:
                 self.surfaceMode = "r"
             elif firstword == "top":
                 self.surfaceMode = "t"
-            elif firstword == "bottom":
+            elif firstword == "bottom" and len(tokenizedLine)==1:
                 self.surfaceMode = "b"
+            elif firstword == "bottom":
+                self.column = 'b' + tokenizedLine[-1]
             elif firstword == "left":
                 self.surfaceMode = "l"
             elif firstword == "right":
