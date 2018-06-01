@@ -47,13 +47,28 @@ class ATFCONLConvertor:
         IDlist = list(map(lambda x: x[0], self.tokens))
         if len(IDlist) != len(set(IDlist)):
             click.echo(
-                'Error: File {0}, Text {1} : IDs generated are not unique'.format(self.inputFileName, self.outputFilename))
+                'Error: File {0}, Text {1} : IDs generated are not unique'.format(self.inputFileName,
+                                                                                  self.outputFilename))
         outfile_name = os.path.join(self.outfolder, self.outputFilename + ".conll")
         with codecs.open(outfile_name, 'w+', 'utf-8') as outputFile:
             outputFile.writelines("#new_text=" + self.outputFilename + "\n")
             outputFile.writelines("# ID\tFORM\tSEGM\tXPOSTAG\tHEAD\tDEPREL\tMISC\n")
             for tok in self.tokens:
                 outputFile.writelines(tok[0] + '\t' + tok[1] + '\n')
+
+    def __clean(self, tokenList):
+        outTokenlist = []
+        insert = True
+        for tok in tokenList:
+            if tok == u'($':
+                insert = False
+            elif tok == u'$)':
+                insert = True
+            elif insert:
+                outTokenlist.append(tok)
+            else:
+                pass
+        return outTokenlist
 
     def __parse(self, linenumber, line):
         tokenizedLine = line.split(" ")
@@ -74,7 +89,7 @@ class ATFCONLConvertor:
                 self.surfaceMode = "r"
             elif firstword == "top":
                 self.surfaceMode = "t"
-            elif firstword == "bottom" and len(tokenizedLine)==1:
+            elif firstword == "bottom" and len(tokenizedLine) == 1:
                 self.surfaceMode = "b"
             elif firstword == "bottom":
                 self.column = 'b' + tokenizedLine[-1]
@@ -98,17 +113,21 @@ class ATFCONLConvertor:
             else:
                 if self.verbose:
                     click.echo(
-                        'Warning: File {0}, Linenumber {1} : Unrecognized @ in {2}'.format(self.inputFileName, linenumber, line))
+                        'Warning: File {0}, Linenumber {1} : Unrecognized @ in {2}'.format(self.inputFileName,
+                                                                                           linenumber, line))
         elif line[0] != "#" and is_number(line[0]):
             linenumber = tokenizedLine[0].rstrip(".")
             tokensToProcess = tokenizedLine[1:]
-            for i in range(len(tokensToProcess)):
+            cleanTokensToProcess = self.__clean(tokensToProcess)
+            for i in range(len(cleanTokensToProcess)):
                 prefix = self.inEnvelope + self.surfaceMode
                 if self.column == '':
                     IDlist = [prefix, linenumber, str(i + 1)]
                 else:
                     IDlist = [prefix, self.column, linenumber, str(i + 1)]
                 ID = ".".join(IDlist)
-                form = tokensToProcess[i]
-                form_clean = form.replace('#', '').replace('[', '').replace(']', '').replace('<', '').replace('>', '').replace('!', '').replace('?', '')
+                form = cleanTokensToProcess[i]
+                form_clean = form.replace('#', '').replace('[', '').replace(']', '').replace('<', '').replace('>',
+                                                                                                              '').replace(
+                    '!', '').replace('?', '')
                 self.tokens.append((ID, form_clean))
