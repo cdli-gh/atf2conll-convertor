@@ -1,6 +1,7 @@
 """
 My Tool does one thing, and one thing well.
 """
+import sys
 from setuptools import find_packages, setup
 
 
@@ -28,7 +29,14 @@ def install_deps():
     new_pkgs = []
     links = []
     for resource in default:
-        if 'git+https' in resource:
+        """
+        Do not install multiprocessing for Python 2.6+ or 3+:
+        """
+        py3_26_or_higher = sys.version_info[0]==3 or \
+           (sys.version_info[0]==2 and sys.version_info[0]>5)
+        if py3_26_or_higher and 'multiprocessing' in resource:
+            pass
+        elif 'git+https' in resource:
             pkg = resource.split('#')[-1]
             links.append(resource.strip() + '-9876543210')
             new_pkgs.append(pkg.replace('egg=', '').rstrip())
