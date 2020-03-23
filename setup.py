@@ -33,7 +33,7 @@ def install_deps():
         Do not install multiprocessing for Python 2.6+ or 3+:
         """
         py3_26_or_higher = sys.version_info[0]==3 or \
-           (sys.version_info[0]==2 and sys.version_info[0]>5)
+           (sys.version_info[0]==2 and sys.version_info[1]>5)
         if py3_26_or_higher and 'multiprocessing' in resource:
             pass
         elif 'git+https' in resource:
