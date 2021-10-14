@@ -81,7 +81,7 @@ class ATFCONLConvertor:
             firstword = tokenizedLine[0].lstrip("&")
             self.outputFilename = firstword
         elif line[0] == "@":
-            # @(obverse[\?]?|reverse[\?]?|top[\?]?|bottom[\?]?|left[\?]?|right[\?]?|seal\s([A-Z]{1}|[0-9]+)?|surface [a-zA-Z0-9]+|face [a-zA-Z0-9]+)
+            # @(obverse[\?]?|reverse[\?]?|top[\?]?|bottom[\?]?|left[\?]?|right[\?]?|seal\s([A-Z]{1}|[0-9]+)?|surface [a-zA-Z0-9]+|face [a-zA-Z0-9]+|fragment [a-zA-Z0-9]+)
             firstword = tokenizedLine[0].lstrip("@")
             if firstword == "obverse":
                 self.surfaceMode = "o"
@@ -106,6 +106,11 @@ class ATFCONLConvertor:
                 self.inEnvelope = 'e'
             elif firstword == "column":
                 self.column = 'col' + tokenizedLine[-1]
+            elif firstword == "fragment":
+                try:
+                    self.column = tokenizedLine[1]
+                except IndexError:
+                    pass                
             elif firstword == 'tablet' or firstword == 'object':
                 if self.verbose:
                     pass
