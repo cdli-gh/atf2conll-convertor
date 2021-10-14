@@ -88,7 +88,7 @@ Simply run:
 ```bash
     $ git clone https://github.com/cdli-gh/atf2conll-convertor.git
     $ cd atf2conll-convertor
-    $ pip install . --process-dependency-links
+    $ pip install .
 ```
 
 Or you can just do
