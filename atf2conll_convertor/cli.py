@@ -3,19 +3,12 @@ import click
 from stat import ST_MODE, S_ISREG
 
 from atf2conll_convertor.convertor import ATFCONLConvertor
-from pyoracc.atf.common.atffile import check_atf
 
 
 def file_process(infile, verbose=False):
     outfolder = os.path.join(os.path.dirname(infile), 'output')
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
-    try:
-        click.echo('Info: Checking {0} with Pyoracc atfchecker.'.format(infile))
-        check_atf(infile, 'cdli', verbose)
-    except SyntaxError as err:
-        click.echo('Error in file{0} with Pyoracc atfchecker.'.format(infile))
-        click.echo('Syntax error: {0}'.format(err))
     convertor = ATFCONLConvertor(infile, verbose)
     convertor.convert()
     convertor.write2file()
