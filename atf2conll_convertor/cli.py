@@ -3,7 +3,6 @@ import click
 from stat import ST_MODE, S_ISREG
 
 from atf2conll_convertor.convertor import ATFCONLConvertor
-from pyoracc.atf.common.atffile import check_atf
 
 
 def file_process(infile, verbose=False):
