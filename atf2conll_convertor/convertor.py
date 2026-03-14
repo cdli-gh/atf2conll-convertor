@@ -134,5 +134,7 @@ class ATFCONLConvertor:
                 form = cleanTokensToProcess[i]
                 form_clean = form.replace('#', '').replace('[', '').replace(']', '').replace('<', '').replace('>',
                                                                                                               '').replace(
-                    '!', '').replace('?', '')
+                    '!', '').replace('?', '').replace('_', '')
+                if not form_clean:
+                    continue
                 self.tokens.append((ID, form_clean))
