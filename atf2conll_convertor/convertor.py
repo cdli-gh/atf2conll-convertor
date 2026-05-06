@@ -107,6 +107,7 @@ class ATFCONLConvertor:
             elif firstword == "column":
                 self.column = 'col' + tokenizedLine[-1]
             elif firstword == "fragment":
+                self.surfaceMode = "f"
                 try:
                     self.column = tokenizedLine[1]
                 except IndexError:

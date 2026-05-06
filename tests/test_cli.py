@@ -23,6 +23,33 @@ ATF_BILINGUAL = """\
 2. _sze gur_ ba-an-si
 """
 
+ATF_FRAGMENT_SINGLE = """\
+&P222243 = Test Fragment
+#atf: lang sux
+@tablet
+@fragment a
+1. sze-bi gur
+2. mu ba-hul
+"""
+
+ATF_FRAGMENT_MULTI = """\
+&P222243 = Test Multi Fragment
+#atf: lang sux
+@tablet
+@fragment a
+1. sze-bi gur
+@fragment b
+1. mu ba-hul
+"""
+
+ATF_FRAGMENT_NO_LETTER = """\
+&P222243 = Test No Letter Fragment
+#atf: lang sux
+@tablet
+@fragment
+1. sze-bi gur
+"""
+
 
 def make_convertor(atf_content):
     with tempfile.NamedTemporaryFile(mode='w', suffix='.atf', delete=False, encoding='utf-8') as f:
@@ -74,5 +101,49 @@ def test_special_chars_removed():
         for form in forms:
             for ch in ('#', '[', ']', '<', '>', '!', '?'):
                 assert ch not in form, f'{ch!r} found in output token: {form!r}'
+    finally:
+        os.unlink(fname)
+
+
+def test_fragment_ids_have_surface_prefix():
+    """@fragment surface should produce IDs starting with 'f', not a bare dot."""
+    fname, c = make_convertor(ATF_FRAGMENT_SINGLE)
+    try:
+        c.convert()
+        for token_id, _ in c.tokens:
+            assert not token_id.startswith('.'), (
+                f"ID '{token_id}' starts with dot — fragment surface prefix missing"
+            )
+        assert c.tokens[0][0] == 'f.a.1.1'
+        assert c.tokens[1][0] == 'f.a.1.2'
+        assert c.tokens[2][0] == 'f.a.2.1'
+        assert c.tokens[3][0] == 'f.a.2.2'
+    finally:
+        os.unlink(fname)
+
+
+def test_fragment_ids_are_unique_across_fragments():
+    """Multiple @fragment sections must produce globally unique IDs."""
+    fname, c = make_convertor(ATF_FRAGMENT_MULTI)
+    try:
+        c.convert()
+        id_list = [tok[0] for tok in c.tokens]
+        assert len(id_list) == len(set(id_list)), "Duplicate IDs found in multi-fragment text"
+        assert c.tokens[0][0] == 'f.a.1.1'
+        assert c.tokens[2][0] == 'f.b.1.1'
+    finally:
+        os.unlink(fname)
+
+
+def test_fragment_no_letter_has_surface_prefix():
+    """@fragment with no letter should still produce IDs starting with 'f'."""
+    fname, c = make_convertor(ATF_FRAGMENT_NO_LETTER)
+    try:
+        c.convert()
+        for token_id, _ in c.tokens:
+            assert not token_id.startswith('.'), (
+                f"ID '{token_id}' starts with dot — fragment surface prefix missing"
+            )
+        assert c.tokens[0][0].startswith('f.')
     finally:
         os.unlink(fname)
