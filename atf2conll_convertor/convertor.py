@@ -2,8 +2,14 @@ import unicodedata
 import codecs
 import click
 import os
+import re
 
 OUTPUT_FOLDER = 'output'
+
+# An inline structure description, e.g. "1. ($ blank space $) 2(disz) lugal".
+# The words inside describe the surface, they are not signs. ATF writes the
+# markers both spaced and unspaced: "($blank space$)", "($blank$)".
+INLINE_STRUCTURE = re.compile(r'\(\$.*?\$\)')
 
 
 def is_number(s):
@@ -57,6 +63,11 @@ class ATFCONLConvertor:
                 outputFile.writelines(tok[0] + '\t' + tok[1] + '\n')
 
     def __clean(self, tokenList):
+        """Drop the words of an inline ($ ... $) structure description.
+
+        Spans closed on their own line are removed before tokenising, so what
+        reaches here is a span left open at the end of a line.
+        """
         outTokenlist = []
         insert = True
         for tok in tokenList:
@@ -71,6 +82,7 @@ class ATFCONLConvertor:
         return outTokenlist
 
     def __parse(self, linenumber, line):
+        line = INLINE_STRUCTURE.sub(' ', line)
         tokenizedLine = line.split(" ")
         if len(line) == 0:
             pass
@@ -123,7 +135,8 @@ class ATFCONLConvertor:
                                                                                            linenumber, line))
         elif line[0] != "#" and is_number(line[0]):
             linenumber = tokenizedLine[0].rstrip(".")
-            tokensToProcess = tokenizedLine[1:]
+            # a removed structure description leaves an empty token behind
+            tokensToProcess = [token for token in tokenizedLine[1:] if token]
             cleanTokensToProcess = self.__clean(tokensToProcess)
             for i in range(len(cleanTokensToProcess)):
                 prefix = self.inEnvelope + self.surfaceMode
