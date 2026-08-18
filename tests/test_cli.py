@@ -105,6 +105,55 @@ def test_special_chars_removed():
         os.unlink(fname)
 
 
+def test_inline_structure_description_is_not_tokenised():
+    """($ ... $) describes the surface; its words are not signs.
+
+    ATF writes the markers spaced and unspaced, and only the spaced form used
+    to be recognised, so "($blank space$)" produced two word tokens.
+    """
+    atf = """\
+&P000001 = Test
+#atf: lang sux
+@object composite text
+@surface a
+1. ($ blank space $) 2(disz) lugal
+2. ($blank space$) 3(disz) lugal
+3. ($blank$) mu-bi
+4. sze ($erasure$) gur
+"""
+    fname, c = make_convertor(atf)
+    try:
+        c.convert()
+        assert c.tokens == [
+            ('a.1.1', '2(disz)'),
+            ('a.1.2', 'lugal'),
+            ('a.2.1', '3(disz)'),
+            ('a.2.2', 'lugal'),
+            ('a.3.1', 'mu-bi'),
+            ('a.4.1', 'sze'),
+            ('a.4.2', 'gur'),
+        ]
+    finally:
+        os.unlink(fname)
+
+
+def test_structure_description_left_open_drops_the_rest_of_the_line():
+    atf = """\
+&P000001 = Test
+#atf: lang sux
+@object composite text
+@surface a
+1. sze ($ blank space
+2. gur
+"""
+    fname, c = make_convertor(atf)
+    try:
+        c.convert()
+        assert c.tokens == [('a.1.1', 'sze'), ('a.2.1', 'gur')]
+    finally:
+        os.unlink(fname)
+
+
 def test_fragment_ids_have_surface_prefix():
     """@fragment surface should produce IDs starting with 'f', not a bare dot."""
     fname, c = make_convertor(ATF_FRAGMENT_SINGLE)
