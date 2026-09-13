@@ -74,8 +74,8 @@ This is from the corresponding ATF :
 
 You can see that the headers are not the same as in Conll-u.
 
-The file should be names Pnnnnnn.conll , replace the Ns by the actual ID number of the text.
-The ID is compose of 4 elements, : surface, column, line, word. the surface code is the abbreviation of the surface name (eg. obverse = o), if there are columns, there are none in this text, then add "col" and the column number, then line and word number.
+The file should be named Pnnnnnn.conll , replace the Ns by the actual ID number of the text.
+The ID is composed of 4 elements: surface, column, line, word. the surface code is the abbreviation of the surface name (eg. obverse = o), if there are columns, there are none in this text, then add "col" and the column number, then line and word number.
 
 
 # Installation
