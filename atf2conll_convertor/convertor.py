@@ -1,5 +1,4 @@
 import unicodedata
-import codecs
 import click
 import os
 import re
@@ -45,7 +44,7 @@ class ATFCONLConvertor:
     def convert(self):
         if self.verbose:
             click.echo('Info: Reading file {0}.'.format(self.inputFileName))
-        with codecs.open(self.inputFileName, 'r', 'utf-8') as openedFile:
+        with open(self.inputFileName, 'r', encoding='utf-8') as openedFile:
             for (i, line) in enumerate(openedFile):
                 self.__parse(i, line.strip())
 
@@ -56,7 +55,7 @@ class ATFCONLConvertor:
                 'Error: File {0}, Text {1} : IDs generated are not unique'.format(self.inputFileName,
                                                                                   self.outputFilename))
         outfile_name = os.path.join(self.outfolder, self.outputFilename + ".conll")
-        with codecs.open(outfile_name, 'w+', 'utf-8') as outputFile:
+        with open(outfile_name, 'w', encoding='utf-8') as outputFile:
             outputFile.writelines("#new_text=" + self.outputFilename + "\n")
             outputFile.writelines("# ID\tFORM\tSEGM\tXPOSTAG\tHEAD\tDEPREL\tMISC\n")
             for tok in self.tokens:
@@ -71,9 +70,9 @@ class ATFCONLConvertor:
         outTokenlist = []
         insert = True
         for tok in tokenList:
-            if tok == u'($':
+            if tok == '($':
                 insert = False
-            elif tok == u'$)':
+            elif tok == '$)':
                 insert = True
             elif insert:
                 outTokenlist.append(tok)
